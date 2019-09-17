@@ -1,0 +1,105 @@
+body {
+	background-image: url("g4h.png");
+    font-size: 15px;
+}
+header {
+    font-style: italic;
+    font-size: 24px;
+    
+}
+TD {
+	color: #FFF0F7;
+	font-family: Dosis,sans-serif;
+	font-size: 5px;
+    
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #90abc0;
+  font: Dosis;
+  text-align: left;
+  padding-left: 450px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  font: Dosis;
+  color: #ffffff;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  font: Dosis;
+  color: #ffffff;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+    .card {
+        width: 85px;
+        height: 41px;
+        background: url("g4h (4).png");
+        
+    }
+    .card:hover {
+        background: url("g4h (5).png");
+    }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-text {
+    text-align: left;
+  position: absolute;
+  padding-left: 600px;
+    padding-right: 1100px;
+  top: 35px;
+}
+.bottom-text {
+    text-align: left;
+  position: absolute;
+  padding-left: 600px;
+padding-right: 850px;
+  top: 250px;
+}
+.donate-text {
+    text-align: left;
+  position: absolute;
+  padding-left: 600px;
+padding-right: 500px;
+  top: 100px;
+}
+.play-text {
+    text-align: left;
+  position: absolute;
+  padding-left: 340px;
+padding-right: 700px;
+  top: 100px;
+}
+.botom-play-text {
+    text-align: left;
+  position: absolute;
+  padding-left: 340px;
+padding-right: 70px;
+  top: 500px;
+}
